@@ -186,12 +186,13 @@ def user_stats(df,city):
     print("\nThis took %s seconds." % (time.time() - start_time))
     print('-'*40)
 
+#Below function is to get input from user
 def get_rawdata(data):
         max_rows = data.shape[0]
         start_row = 0
         end_row = 5
         while True:
-            us_ip = input("Would you like to see the raw data(5 lines at a time): Valid options are Yes or No [not case sensitive]:")
+            us_ip = input("Would you like to see the raw data(5 lines at a time): Options are Yes or No [not case sensitive]:")
             us_ip = us_ip.lower()
             if(us_ip!="yes" and us_ip!="no"):
                 print("Type in either 'Yes' or 'No'")
