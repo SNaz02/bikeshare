@@ -6,6 +6,7 @@ Nanodegree Git Project
 
 ### Description
 Created a new branch called "documentation"
+Added new line to emulate real world scenario
 
 ### Files used
 bikeshare.py
